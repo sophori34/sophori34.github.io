@@ -1,132 +1,140 @@
 body{
-    background-color: palegoldenrod;
-    margin:0px;
-    padding:0px;
-}
-u1{
-    list-style: none;
-}
-a{
-    text-decoration: none;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 3px;
 }
 section{
-
     width: 100%;
-    height: 95vh;
-    background-image:url(/Users/sophiazou/cse/IMG_5346.JPG);
+    height: 80vh;
+    background-image:url(/Users/sophiazou/cse/artist.jpg);
     background-repeat :no-repeat;
     background-size: contain;
-    position: relative;
+    position: contain;
+    display: flex;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    background-color: palevioletred;
+    height: 70px;
+    background-color: powderblue;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 5%;
+    padding: 0px 0%;
+    width: 100%;
 }
-
 nav ul{
     display: flex;
-
 }
-
+ul{
+    list-style: none;
+}
 nav ul li a{
-margin: 30px;
-font-family: Arial, Helvetica, sans-serif;
-color: purple;
-font-size: 15px;
-font-weight: 700;
-
+    margin: 30px;
+    font-family: helvetica;
+    color: indigo;
+    font-weight: 700;
 }
-
-.logo{
-    font-family: cursive;
-    color: salmon;
-    font-size: 50px;
-
+a{
+    text-decoration: none;
 }
-
-.active{
-    font-weight: bold;
-    color: slateblue;
-
-}
-
-.text-container p:nth-child(1){
-    font-family: fantasy;
-    font-weight: bold;
-    color: yellowgreen;
-    font-size: 50px;
-
-}
-
-.text-container p:nth-child(2){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:bold;
-    letter-spacing: 1px;
-    color: rebeccapurple;
-    font-size: 50px;
-
-}
-.text-container p:nth-child(3){
-    font-family: monospace;
-    color: limegreen;
-    font-size: 50px;
-
-}
-.text-container p{
-    line-height: 0px;
-    margin: 45px 0px 25px;
-
-}
-.text-container{
-    position: absolute;
-    left: 13%;
-    top: 42%;
-    transform: translate(-13%, -42%);
-}
-.text-container button{
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-
-}
-.hire-btn{
-    border: 2px solid #323232;
-    color: mediumaquamarine;
-
-}
-.down-cv{
-    background-color: lightcoral;
-    color:lime;
-    border: none;
-
-}
-button:active{
-    transform: scale(1.1);
-}
-.model{
-    height: 100px;
-    position: absolute;
-    bottom: 0px;
-    left: 70%;
-    transform: translateX(-70%);
-
-
-}
-.about-container{
-    width: 80%;
-    height: 330px;
-    background-color: blanchedalmond;
-    border-radius: 20px;
+.intro-box{
+    background-color: thistle;
+    border-radius: 5px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    width: 100;
+    height: 500px;
+    
+}
+.active{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(160, 95, 168);
+    font-weight: bold;
+    font-size: 30px;
+}
+.intro-font p:nth-child(1){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: slateblue;
+    font-weight: bold;
+    font-size: 75px;
+    padding: 0px;
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+.intro-font p:nth-child(2){
+    font-family: cursive;
+    color: purple;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px;
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+.intro-font p:nth-child(3){
+    font-family: monospace;
+    color: rgba(89, 5, 172, 0.404);
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px;
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+.logo{
+    font-weight: 300px;
+    color: maroon;
+    font-family: monospace;
+    font-size: 25px;
+}
+.box-container{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.box-1{
+    background-image: url(/Users/sophiazou/cse/walking.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-color: bisque;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.box-2{
+    background-image: url(/Users/sophiazou/cse/ball.jpg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-color: bisque;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: contents;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+}
+.column{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 2px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+@media screen and (max-width:1300px){
+    .column{
+        -ms-flex:50%;
+        flex:100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .column{
+        -ms-flex:50%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
