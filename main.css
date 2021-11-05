@@ -1,0 +1,132 @@
+body{
+    background-color: palegoldenrod;
+    margin:0px;
+    padding:0px;
+}
+u1{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+
+    width: 100%;
+    height: 95vh;
+    background-image:url(/Users/sophiazou/cse/IMG_5346.JPG);
+    background-repeat :no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+margin: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: purple;
+font-size: 15px;
+font-weight: 700;
+
+}
+
+.logo{
+    font-family: cursive;
+    color: salmon;
+    font-size: 50px;
+
+}
+
+.active{
+    font-weight: bold;
+    color: slateblue;
+
+}
+
+.text-container p:nth-child(1){
+    font-family: fantasy;
+    font-weight: bold;
+    color: yellowgreen;
+    font-size: 50px;
+
+}
+
+.text-container p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color: rebeccapurple;
+    font-size: 50px;
+
+}
+.text-container p:nth-child(3){
+    font-family: monospace;
+    color: limegreen;
+    font-size: 50px;
+
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+
+}
+.hire-btn{
+    border: 2px solid #323232;
+    color: mediumaquamarine;
+
+}
+.down-cv{
+    background-color: lightcoral;
+    color:lime;
+    border: none;
+
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-70%);
+
+
+}
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
